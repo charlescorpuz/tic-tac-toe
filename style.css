@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 450px;
+}
+
+.tile {
+    align-items: center;
+    font-size: 150px;
+    height: 147px;
+    justify-content: center;
+    width: 147px;
+}
+
+.horizontal-line {
+    border-bottom: 3px solid #fff;
+}
